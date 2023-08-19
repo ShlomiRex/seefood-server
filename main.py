@@ -62,6 +62,9 @@ def api():
         print("Yes Hotdog")
     else:
         print("Not hotdog")
+
+    image.show("Last image prediction request")
+
     return jsonify({
         "is_hotdog": hotdog
     })
